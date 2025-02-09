@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const twilio = require('twilio');
 
 // Токен вашего бота
-const token = 'YOUR_TELEGRAM_BOT_TOKEN'; // Замените на токен вашего Telegram-бота
+const token = '7755124275:AAFCjIIUMmiLtIlhTNoDh4AUjuMYm3vi57Q'; // Замените на токен вашего Telegram-бота
 const bot = new TelegramBot(token, { polling: true });
 
 // Токены Twilio для отправки SMS
